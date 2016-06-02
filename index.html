@@ -22,35 +22,42 @@
   <body>
     <div class="container">
       <h1>Calculator</h1>
-      <form id="add">
+      <form id="calc">
         <div class="form-group">
-          <label for="add1">1st number:</label>
-          <input id="add1" class="form-control" type="text">
+          <label for="num1">1st number:</label>
+          <input id="num1" class="form-control" type="text">
         </div>
+
         <div class="form-group">
-          <label for="add2">2nd number:</label>
-          <input id="add2" class="form-control" type="text">
+          <label for="num2">2nd number:</label>
+          <input id="num2" class="form-control" type="text">
         </div>
+
         <div class="radio">
           <label>
             <input type="radio" name="fn" value="add">
             Add
           </label>
+
           <label>
             <input type="radio" name="fn" value="subtract">
             Subtract
           </label>
+
           <label>
             <input type="radio" name="fn" value="multiply">
             Multiply
           </label>
+
           <label>
             <input type="radio" name="fn" value="divide">
             Divide
           </label>
         </div>
+
         <button type="submit" class="btn">Calcualte!</button>
       </form>
+      <h1 id=output></h1>
     </div>
   </body>
 </html>
